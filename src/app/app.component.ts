@@ -1,3 +1,5 @@
+import { VERSION } from '../assets/version';
+
 import { Component, ViewChild } from '@angular/core';
 
 import { Platform } from '@ionic/angular';
@@ -26,6 +28,7 @@ export interface PageInterface {
 export class AppComponent {
   
   rootPage:any = TabsPage;
+  version = VERSION;
   // pages: Array<{title: string, component: any}>;
 /*
   appPages: PageInterface[] = [
