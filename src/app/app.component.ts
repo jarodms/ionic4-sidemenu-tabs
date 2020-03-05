@@ -1,4 +1,4 @@
-import { VERSION } from '../assets/version';
+import { VERSION } from '../app/version';
 
 import { Component, ViewChild } from '@angular/core';
 
